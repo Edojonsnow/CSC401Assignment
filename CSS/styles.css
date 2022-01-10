@@ -1,0 +1,271 @@
+h1, h2 {
+  font-family: 'Cairo', sans-serif;
+}
+
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h5 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+a {
+  font-family: 'Maven Pro', sans-serif;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #2E4C6D !important;
+}
+
+.navbar-nav {
+  position: absolute;
+  left: 250px;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+.navbar-toggler-icon {
+  background-color: #2E4C6D !important;
+  border-radius: 5px;
+}
+
+/* Intro Section */
+.hello {
+  background: white;
+  overflow: hidden;
+}
+
+.hello span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.top-section {
+  padding-top: 15px;
+}
+
+.logo {
+  position: relative;
+  left: 15%;
+  color: #1A374D !important;
+  font-size: 25px !important;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  position: absolute;
+  left: 35%;
+}
+
+.navText {
+  color: #2E4C6D !important;
+  font-weight: bold !important;
+  font-family: 'Cairo', sans-serif;
+  font-size: 18px;
+}
+
+.introImage {
+  height: 50%;
+  width: 50%;
+  position: relative;
+}
+
+.introText {
+  position: absolute;
+  left: 260px;
+  color: #502064;
+  width: 450px;
+}
+
+.introText h1 {
+  font-size: 4rem;
+  font-weight: 489;
+}
+
+.hello, .hello2 {
+  padding-left: 50px;
+}
+
+.introDiv {
+  padding: 5% 25% 25%;
+}
+
+/* Skills Section */
+.tennisPic {
+  width: 100px;
+  height: 100px;
+}
+
+.guitarPic {
+  width: 100px;
+  height: 100px;
+}
+
+.skill-header {
+  text-align: left;
+  color: #2E4C6D;
+  padding-left: 200px !important;
+}
+
+.dev-div {
+  padding: 4% 20% 4%;
+  background-color: #BAABDA;
+  border-radius: 150px;
+  color: white;
+}
+
+.fa-file-code {
+  padding: 5% 25% 5% 50%;
+  color: white;
+  transition: 1s;
+}
+
+.fa-file-code:hover {
+  transform: scale(1.2);
+  color: #2E4C6D;
+}
+
+.hack-div {
+  padding: 3% 20% 8%;
+  color: #2E4C6D;
+}
+
+.fa-user-secret {
+  padding-left: 50px;
+  padding-top: 50px;
+  transition: 1s;
+}
+
+.fa-user-secret:hover {
+  transform: scale(1.2);
+  color: #BAABDA;
+}
+
+.certified-div {
+  padding: 4% 20% 4%;
+  background-color: #BAABDA;
+  border-radius: 150px;
+  color: white;
+}
+
+.fa-check-circle {
+  padding: 5% 25% 5% 45%;
+  color: white;
+  transition: 1s;
+}
+
+.fa-check-circle:hover {
+  transform: scale(1.2);
+  color: #2E4C6D;
+}
+
+/* Hobbies Section */
+.hobbies-header {
+  text-align: left;
+  color: #2E4C6D;
+  padding-left: 200px !important;
+  padding-top: 20px !important;
+}
+
+.hobby-div {
+  padding: 2.5% 5% 8%;
+  color: #2E4C6D;
+}
+
+#Hobbies h3 {
+  font-weight: bold;
+}
+
+.col-lg-3 {
+  text-align: center;
+  padding: 0 20px !important;
+  transition: 1s;
+}
+
+.col-lg-3:hover {
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+/* Contact Section */
+#Contact {
+  padding: 5% 25%;
+  background-color: #BAABDA;
+  border-radius: 150px;
+}
+
+.icon {
+  padding-bottom: 40px;
+}
+
+@media (max-width:830px) {
+  #Contact {
+    border-radius: 0;
+  }
+  .fa-file-code,.fa-check-circle,.fa-user-secret {
+      padding: 5% 25% 5% 25%;
+    }
+  .introDiv {
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 18%;
+    padding: 12% 25% 35%;
+  }
+
+   .hobbies-header {
+    position: relative !important;
+    right: 30px !important;
+  }
+
+  .skill-header {
+    position: relative !important;
+    right: 30px !important;
+    padding-top: 50px ;
+
+  }
+
+  .dev-div h3, .hack-div h3, .certified-div h3 {
+    font-size: 15px;
+  }
+
+  .introText {
+    position: absolute;
+    left: 10px;
+  }
+
+  .logo {
+    position: relative;
+    left: 50px;
+  }
+
+  .hack-div {
+    padding: 3% 10% 0;
+  }
+
+  .hacktext {
+    padding: 15% 0;
+  }
+
+  .col-lg-3 {
+    margin-bottom: 25px;
+    width: 40%;
+    transition: 1.5s;
+  }
+
+  .col-lg-3:hover {
+    transform: scale(1.1);
+  }
+
+  .navbar-nav {
+    background-color: white;
+    z-index: +2;
+    position: absolute !important;
+    left: 70% !important;
+  }
+}
